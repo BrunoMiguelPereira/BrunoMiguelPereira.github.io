@@ -58,8 +58,7 @@ head,body {
 }
 
 .click:hover{
-    border-color: lightgrey;
-    border-width: 1px;
+    border: lightgrey solid 1px;
     color: black;
 }
 
