@@ -16,11 +16,30 @@ head,body {
     text-align: right;
 }
 
+#Advance_button{
+    background-image: linear-gradient(#1a8cff,#0073e6);
+    color: white;
+    border-radius: 4px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    border: #4d4dff solid 1px;
+    height: 30px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+
+}
+
+#Advance_button:hover {
+    border: solid #0066cc 1px;
+}
+
 .query {
     width: 600px;
     grid-column: 1 / 4;
     grid-row: 1;
-    border-radius: 20px;
+    border-radius: 20px;    
     border: 1px solid grey;
 }
 
