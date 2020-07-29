@@ -42,10 +42,16 @@ head,body {
     grid-row: 1;
     border-radius: 20px;    
     border: 1px solid grey;
+    padding-left: 15px;
+
 }
 
 .query:hover {
     box-shadow:  0.25px 0.25px 5px 2.5px lightgrey;
+}
+
+.query:focus {
+    outline: none;
 }
 
 .click {
@@ -89,23 +95,29 @@ img {
 }
 
 
-.um {
+#um {
     grid-column: 2 / 4;
     grid-row: 1;
 }
 
-.dois {
+#dois {
     grid-column: 2 / 4;
     grid-row: 2;
 }
 
-.tres {
+#tres {
     grid-column: 2 / 4;
     grid-row: 3;
 }
 
-.quatro {
+#quatro {
     grid-column: 2 / 4;
     grid-row: 4;
+}
+
+
+.query_v2:focus{
+    outline-color: #1a8cff;
+    box-shadow: 0px 2px 2px 0px inset lightgray;
 }
 
